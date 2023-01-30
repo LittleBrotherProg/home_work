@@ -1,22 +1,23 @@
+import requests
 class YaUploader:
     def __init__(self, token: str):
         self.token = token
 
-    def upload(self):
-        import requests
-        """Метод загружает файлы по списку file_list на яндекс диск"""
-        url = 'https://cloud-api.yandex.net/v1/disk/resources/files'
+    def upload(self, path_to_file: str):
+        url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
         headers = {
             'Content-Type': 'application/json', 
-            'Authorization': 'OAuth {}'.format(self.token)
+            'Authorization': self.token
             }
-        result = requests.get(url, headers = headers)
-        return result.json()
+        params = {'path': path_to_file, 'overwrite': True}
+        link = requests.get(url, headers = headers, params=params)
+        upload = requests.put((link.json()).get('href'), data=open(r'.\\8112.jpg', 'rb'))
+        return upload
 
 
 
 if __name__ == '__main__':
-    with open('token.txt') as token:
-        token = token.read()
+    path_to_file = 'Загрузки/8112.jpg'
+    token = (input('Введите свой токен от яндекс диска'))
     uploader = YaUploader(token)
-    print(uploader.upload())
+    print(uploader.upload(path_to_file))
