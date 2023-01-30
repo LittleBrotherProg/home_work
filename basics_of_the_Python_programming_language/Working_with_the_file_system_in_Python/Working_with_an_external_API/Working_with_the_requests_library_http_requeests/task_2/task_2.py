@@ -11,13 +11,13 @@ class YaUploader:
             }
         params = {'path': path_to_file, 'overwrite': True}
         link = requests.get(url, headers = headers, params=params)
-        upload = requests.put((link.json()).get('href'), data=open(r'.\\8112.jpg', 'rb'))
+        file_name = path_to_file.split('/')[1]
+        upload = requests.put((link.json()).get('href'), data=open(rf'.\\{file_name}', 'rb'))
         return upload
-
-
 
 if __name__ == '__main__':
     path_to_file = 'Загрузки/8112.jpg'
-    token = (input('Введите свой токен от яндекс диска'))
+    with open('token.txt', 'r+', encoding='UTF-8') as file:
+        token = file.read()
     uploader = YaUploader(token)
     print(uploader.upload(path_to_file))
