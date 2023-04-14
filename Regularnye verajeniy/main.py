@@ -91,3 +91,4 @@ if __name__ == '__main__':
   with open("phonebook.csv", "w") as f:
     datawriter = csv.writer(f, delimiter=',')
     datawriter.writerows(contacts_list)
+    print(contacts_list)
