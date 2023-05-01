@@ -1,0 +1,802 @@
+[
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79663730",
+            "salary": 50000,
+            "department": "Щербин Алексей Сергеевич",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79605888",
+            "salary": "Не указана",
+            "department": "Студия Кефир",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78926884",
+            "salary": 70000,
+            "department": "РусЭкспресс",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79801098",
+            "salary": "Не указана",
+            "department": "Гален",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79914110",
+            "salary": null,
+            "department": "evrone.ru",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79908693",
+            "salary": 45000,
+            "department": "NOVA",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79824429",
+            "salary": 230000,
+            "department": "Российское общество Знание",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79824456",
+            "salary": 300000,
+            "department": "Predicto",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79934252",
+            "salary": null,
+            "department": "Точка",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79382076",
+            "salary": 140000,
+            "department": "AERODISK",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/72216524",
+            "salary": 300000,
+            "department": "Перфект Системс",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79917370",
+            "salary": 200000,
+            "department": "Кадровый центр Президент",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79730104",
+            "salary": 150000,
+            "department": "Деловая Автоматизация",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/71147348",
+            "salary": 300000,
+            "department": "Дубайт",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79123734",
+            "salary": "Не указана",
+            "department": "Винтерфелл, сеть гостиниц",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79383854",
+            "salary": 150000,
+            "department": "АНО Инфокультура",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79436108",
+            "salary": null,
+            "department": "Piepack.club",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79739114",
+            "salary": "Не указана",
+            "department": "Бережная Кристина Васильевна",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79906367",
+            "salary": "Не указана",
+            "department": "СБЕР",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79248533",
+            "salary": 300000,
+            "department": "Бизнес-Азимут",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79667895",
+            "salary": "Не указана",
+            "department": "ДА-ТИМ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79110745",
+            "salary": 4000,
+            "department": "4CV Recruitment Services",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79103033",
+            "salary": 180000,
+            "department": "Predicto",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79882602",
+            "salary": null,
+            "department": "Мамаева Ирина Анатольевна",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79220101",
+            "salary": null,
+            "department": "МСК ГРУПП ИС",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79890835",
+            "salary": null,
+            "department": "evrone.ru",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78739557",
+            "salary": null,
+            "department": "КИБЕР-РОМ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79944160",
+            "salary": null,
+            "department": "Дивергент",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79870889",
+            "salary": 250000,
+            "department": "Технопром",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/76797183",
+            "salary": 350000,
+            "department": "СБЕР",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79577718",
+            "salary": 250000,
+            "department": "Мамаева Ирина Анатольевна",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79117710",
+            "salary": 170000,
+            "department": "Blue underlined link",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79415326",
+            "salary": 3000,
+            "department": "Novakid Inc",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79919529",
+            "salary": 250000,
+            "department": "Автомакон",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79895487",
+            "salary": 190000,
+            "department": "ЧУ ДО Московская школа программистов",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79911641",
+            "salary": 200000,
+            "department": "Кадровый центр Президент",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79127417",
+            "salary": 200000,
+            "department": "Перспектива",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79169899",
+            "salary": "Не указана",
+            "department": "Декаст Инжиниринг",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79879806",
+            "salary": "Не указана",
+            "department": "S8 Capital",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79848315",
+            "salary": 400000,
+            "department": "Международный аэропорт Шереметьево",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79225796",
+            "salary": 230000,
+            "department": "Americor Funding Inc",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78880980",
+            "salary": 150000,
+            "department": "КВАНТ ПРОГРАММ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79956874",
+            "salary": 200000,
+            "department": "Габидуллов Тимур Робертович",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78954091",
+            "salary": 250000,
+            "department": "Платформа Больших Данных",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78363305",
+            "salary": 150000,
+            "department": "Реверслаб",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79086858",
+            "salary": "Не указана",
+            "department": "idaproject",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79051528",
+            "salary": 100000,
+            "department": "Own Script",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79945618",
+            "salary": 200000,
+            "department": "Габидуллов Тимур Робертович",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79308317",
+            "salary": 130000,
+            "department": "Юнит",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79311788",
+            "salary": "Не указана",
+            "department": "СБЕР",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79789224",
+            "salary": 50000,
+            "department": "Цифровые решения, НПП",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79143443",
+            "salary": 4000,
+            "department": "Luxemo Limited",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78259561",
+            "salary": 150000,
+            "department": "Компэл",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78818283",
+            "salary": 60000,
+            "department": "РА Дельта",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78666164",
+            "salary": 150000,
+            "department": "DARS, группа компаний",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79790204",
+            "salary": 100000,
+            "department": "Programmatic Group",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79850331",
+            "salary": null,
+            "department": "Skyeng",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79796393",
+            "salary": "Не указана",
+            "department": "Gallery",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79219903",
+            "salary": null,
+            "department": "Фаворит, Международный кадровый центр",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79178359",
+            "salary": null,
+            "department": "StormWall™",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79943244",
+            "salary": null,
+            "department": "DataGo!",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78642019",
+            "salary": "Не указана",
+            "department": "Uniteller",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79526381",
+            "salary": 200000,
+            "department": "Predicto",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79718797",
+            "salary": "Не указана",
+            "department": "Eqvanta",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79747951",
+            "salary": 250000,
+            "department": "IT and Digital",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79822638",
+            "salary": 200000,
+            "department": "ГК ТВЕМА",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79717231",
+            "salary": 100000,
+            "department": "Энсайн (Nsign.ru)",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79084256",
+            "salary": 300000,
+            "department": "Predicto",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79295819",
+            "salary": "Не указана",
+            "department": "Ок Софт",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79893674",
+            "salary": null,
+            "department": "Агентство 21 век, КЦ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79831677",
+            "salary": "Не указана",
+            "department": "DM Basis",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78452335",
+            "salary": "Не указана",
+            "department": "Гусарова Юлия Александровна",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78622979",
+            "salary": 140000,
+            "department": "Лаборатория Наносемантика",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78664757",
+            "salary": null,
+            "department": "Enjoypro",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/76767074",
+            "salary": 100000,
+            "department": "Skyeng",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78808681",
+            "salary": 200000,
+            "department": "Carbon Soft",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79842603",
+            "salary": "Не указана",
+            "department": "Леруа Мерлен",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78622299",
+            "salary": null,
+            "department": "Лаборатория Наносемантика",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79953945",
+            "salary": 250000,
+            "department": "ICMinnovation",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/72687478",
+            "salary": 100000,
+            "department": "Селфсек",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78952166",
+            "salary": "Не указана",
+            "department": "АНО ЦИСМ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78181120",
+            "salary": null,
+            "department": "CLS Global",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79715736",
+            "salary": "Не указана",
+            "department": "НОВОСИСТЕМ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/72687495",
+            "salary": 100000,
+            "department": "Селфсек",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79532120",
+            "salary": "Не указана",
+            "department": "Joy Way",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79776504",
+            "salary": "Не указана",
+            "department": "Леруа Мерлен",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79890667",
+            "salary": 180000,
+            "department": "РЕСТАДВАЙЗЕР",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79777516",
+            "salary": 175000,
+            "department": "Астрономический Научный Центр",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79923122",
+            "salary": 160000,
+            "department": "Аликсон",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79688982",
+            "salary": null,
+            "department": "Skyeng",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79412958",
+            "salary": "Не указана",
+            "department": "BAUM STORAGE",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79120615",
+            "salary": 180000,
+            "department": "РВИ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79679296",
+            "salary": "Не указана",
+            "department": "КОРУС Консалтинг",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/77987262",
+            "salary": 200000,
+            "department": "24Н Софт",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79892048",
+            "salary": 150000,
+            "department": "АйТи БАСТИОН",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79583927",
+            "salary": "Не указана",
+            "department": "Ренессанс Банк",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/78735525",
+            "salary": null,
+            "department": "Intelligent Analytics",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/77954455",
+            "salary": 170000,
+            "department": "DIGINETICA",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79676308",
+            "salary": "Не указана",
+            "department": "АНО ЦИСМ",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79736928",
+            "salary": 270000,
+            "department": "СБЕР",
+            "area": "Москва"
+        }
+    ]
+]
