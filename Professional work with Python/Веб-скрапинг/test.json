@@ -9,17 +9,17 @@
     ],
     [
         {
-            "vacancies_url": "https://hh.ru/vacancy/79215601",
+            "vacancies_url": "https://hh.ru/vacancy/80036283",
             "salary": "Не указана",
-            "department": "Ред Софт",
+            "department": "Группа Самолет",
             "area": "Москва"
         }
     ],
     [
         {
-            "vacancies_url": "https://hh.ru/vacancy/78300071",
+            "vacancies_url": "https://hh.ru/vacancy/79215601",
             "salary": "Не указана",
-            "department": "Рексофт",
+            "department": "Ред Софт",
             "area": "Москва"
         }
     ],
@@ -41,9 +41,9 @@
     ],
     [
         {
-            "vacancies_url": "https://hh.ru/vacancy/79894929",
+            "vacancies_url": "https://hh.ru/vacancy/78300071",
             "salary": "Не указана",
-            "department": "Свистов Александр Юрьевич",
+            "department": "Рексофт",
             "area": "Москва"
         }
     ],
@@ -57,17 +57,9 @@
     ],
     [
         {
-            "vacancies_url": "https://hh.ru/vacancy/76544211",
+            "vacancies_url": "https://hh.ru/vacancy/78999868",
             "salary": "Не указана",
-            "department": "Teachbase",
-            "area": "Москва"
-        }
-    ],
-    [
-        {
-            "vacancies_url": "https://hh.ru/vacancy/76460278",
-            "salary": "Не указана",
-            "department": "Группа компаний Астра",
+            "department": "Alteasy",
             "area": "Москва"
         }
     ],
@@ -76,30 +68,6 @@
             "vacancies_url": "https://hh.ru/vacancy/76544211",
             "salary": "Не указана",
             "department": "Teachbase",
-            "area": "Москва"
-        }
-    ],
-    [
-        {
-            "vacancies_url": "https://hh.ru/vacancy/79382076",
-            "salary": 140000,
-            "department": "AERODISK",
-            "area": "Москва"
-        }
-    ],
-    [
-        {
-            "vacancies_url": "https://hh.ru/vacancy/78853975",
-            "salary": 150000,
-            "department": "Вайтлист",
-            "area": "Москва"
-        }
-    ],
-    [
-        {
-            "vacancies_url": "https://hh.ru/vacancy/79231178",
-            "salary": "Не указана",
-            "department": "Цифровые Образовательные Решения",
             "area": "Москва"
         }
     ],
@@ -113,9 +81,25 @@
     ],
     [
         {
-            "vacancies_url": "https://hh.ru/vacancy/78999868",
+            "vacancies_url": "https://hh.ru/vacancy/78853975",
+            "salary": 150000,
+            "department": "Вайтлист",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/76460278",
             "salary": "Не указана",
-            "department": "Alteasy",
+            "department": "Группа компаний Астра",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79231178",
+            "salary": "Не указана",
+            "department": "Цифровые Образовательные Решения",
             "area": "Москва"
         }
     ],
@@ -137,9 +121,41 @@
     ],
     [
         {
+            "vacancies_url": "https://hh.ru/vacancy/77751890",
+            "salary": null,
+            "department": "Лаборатория Наносемантика",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
             "vacancies_url": "https://hh.ru/vacancy/78787651",
             "salary": "Не указана",
             "department": "USETECH",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79894929",
+            "salary": "Не указана",
+            "department": "Свистов Александр Юрьевич",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/79382076",
+            "salary": 140000,
+            "department": "AERODISK",
+            "area": "Москва"
+        }
+    ],
+    [
+        {
+            "vacancies_url": "https://hh.ru/vacancy/77751890",
+            "salary": null,
+            "department": "Лаборатория Наносемантика",
             "area": "Москва"
         }
     ]
