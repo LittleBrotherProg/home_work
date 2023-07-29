@@ -1,40 +1,30 @@
 class NestedIterator:
     def __init__(self, list_of_list):
         self.result = []
-        self.memory = []
         self.lol = list_of_list
         self.count_list = 0
+        self.memory = [self.lol[self.count_list]]
 
     def __iter__(self):
         return self
 
     def __next__(self):
-        def check_list(item):
-            if isinstance(item, list):
-                self.memory = item + self.memory
-                if len(self.memory) == 0:
-                    return
-                else:
-                    item = self.memory.pop(0) 
-                    return check_list(item)
-            else:
-                self.result.append(item)
-                if len(self.memory) != 0:
-                    item = self.memory.pop(0) 
-                    return check_list(item)
-
         self.all_list = len(self.lol)
-        if self.all_list == self.count_list and len(self.result) == 0:
-            raise StopIteration
-        else:
-            if len(self.result) != 0:
-                return self.result.pop(0)
-            else:
-                items_from_the_list = self.lol[self.count_list]
-                for item in items_from_the_list:
-                    check_list(item)
+        if len(self.memory) == 0:
                 self.count_list += 1
+                if self.all_list == self.count_list and len(self.memory) == 0:
+                    raise StopIteration
+                self.memory = [self.lol[self.count_list]]
                 return self.__next__()
+        else:
+            self.item = self.memory.pop(0)
+            if isinstance(self.item, list):
+                self.memory = self.item + self.memory
+                return self.__next__()
+            else:
+                return self.item
+
+      
                 
             
 
