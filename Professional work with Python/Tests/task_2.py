@@ -46,6 +46,27 @@ def test_yandex_disk_access():
     assert 200 == ya.status_code('https://cloud-api.yandex.net/v1/disk/', 
                                   requests.get, 
                                   {"path":'disk:/'})
+    print("Доступ к яндекс диску есть")
     assert 400 != ya.status_code('https://cloud-api.yandex.net/v1/disk/', 
                                   requests.get, 
                                   {"path":'disk:/'})
+    
+def test_yandex_disk_name_folder():
+    ya = API_YA()
+    assert 200 == ya.status_code('https://cloud-api.yandex.net/v1/disk/resources', 
+                                  requests.get, 
+                                  {"path":'disk:/test'})
+    print("Папка существует на яндекс диске")
+    
+    assert 400 != ya.status_code('https://cloud-api.yandex.net/v1/disk/resources', 
+                                  requests.get, 
+                                  {"path":'disk:/test'})
+
+    assert 401 != ya.status_code('https://cloud-api.yandex.net/v1/disk/resources', 
+                                  requests.get, 
+                                  {"path":'disk:/test'})
+
+
+    assert 404 != ya.status_code('https://cloud-api.yandex.net/v1/disk/resources', 
+                                  requests.get, 
+                                  {"path":'disk:/test'})
