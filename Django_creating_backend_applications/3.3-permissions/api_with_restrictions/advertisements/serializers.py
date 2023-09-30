@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+from .models import Advertisement
 from rest_framework import serializers
 
 from advertisements.models import Advertisement
@@ -38,8 +39,14 @@ class AdvertisementSerializer(serializers.ModelSerializer):
         return super().create(validated_data)
 
     def validate(self, data):
+        if self.context['request']._request.method == "PATCH":
+            if self.instance.creator == self.context['request'].user:
+                return data
         
+        if self.context['request']._request.method == "POST":
+            return data
+        return []
         """Метод для валидации. Вызывается при создании и обновлении."""
         # TODO: добавьте требуемую валидацию
 
-        return data
+       
