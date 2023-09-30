@@ -76,7 +76,7 @@ Content-Type: application/json
     },
     {
       "product": 3,
-      "quantity": 3,
+      "quantity": 63,
       "price": 15
     }
   ]

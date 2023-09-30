@@ -30,7 +30,7 @@ class MeasurementsView(APIView):
 class SensorView(APIView):
     def get(self, request, pk):
         sensor = Sensor.objects.get(pk=pk)
-        ser = SensorDetailSerializer(sensor, many = True)
+        ser = SensorDetailSerializer(sensor)
         return Response(ser.data)
     
     def patch(self, request, pk):
