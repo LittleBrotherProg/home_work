@@ -23,7 +23,7 @@ class StockSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Stock
-        fields = ['address', 'positions']
+        fields = ['id','address', 'positions']
     # настройте сериализатор для склада
     def create(self, validated_data):
         # достаем связанные данные для других таблиц
@@ -46,7 +46,15 @@ class StockSerializer(serializers.ModelSerializer):
         # обновляем склад по его параметрам
         stock = super().update(instance, validated_data)
         for position in positions:
-            StockProduct.objects.update_or_create(**position)
+            StockProduct.objects.update_or_create(
+                                                    stock=stock.pk,
+                                                    product = position['product'].pk,
+                                                    defaults={
+                                                                'price': position['price'],
+                                                                'quantity': position['quantity']
+                                                    }
+            )
+            
         # здесь вам надо обновить связанные таблицы
         # в нашем случае: таблицу StockProduct
         # с помощью списка positions
