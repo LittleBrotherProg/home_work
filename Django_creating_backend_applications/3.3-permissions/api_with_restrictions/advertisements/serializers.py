@@ -1,8 +1,12 @@
 from django.contrib.auth.models import User
+from pydantic import ValidationError
 from .models import Advertisement
 from rest_framework import serializers
+from django.utils.translation import gettext_lazy as _
 
 from advertisements.models import Advertisement
+
+from advertisements import models
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -39,13 +43,16 @@ class AdvertisementSerializer(serializers.ModelSerializer):
         return super().create(validated_data)
 
     def validate(self, data):
-        if self.context['request']._request.method == "PATCH":
-            if self.instance.creator == self.context['request'].user:
-                return data
+        creator = self.context['request'].user.id
+        advertisements = Advertisement.objects.filter(
+                                                      creator_id = creator, 
+                                                      status = 'OPEN'
+                                                      ).count()
+        if advertisements >= 10:
+            return
+                                
+        return data
         
-        if self.context['request']._request.method == "POST":
-            return data
-        return []
         """Метод для валидации. Вызывается при создании и обновлении."""
         # TODO: добавьте требуемую валидацию
 
