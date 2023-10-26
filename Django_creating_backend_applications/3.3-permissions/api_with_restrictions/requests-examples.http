@@ -14,7 +14,7 @@ Content-Type: application/json
 Authorization: Token 27aa095a77c7cc22ccf80a354336d25029e8ab8b
 
 {
-  "title": "Шкаф IKEA",
+  "title": "Мои трусы",
   "description": "Срочно"
 }
 
@@ -23,7 +23,7 @@ Authorization: Token 27aa095a77c7cc22ccf80a354336d25029e8ab8b
 # попытка поменять объявление
 PATCH {{baseUrl}}/advertisements/15/
 Content-Type: application/json
-Authorization: Token bef638a91b1264aff35ee647711a9e333e8f615d
+Authorization: Token 27aa095a77c7cc22ccf80a354336d25029e8ab8b
 
 {
   "status": "OPEN"

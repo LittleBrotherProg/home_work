@@ -8,7 +8,7 @@ from django_filters.rest_framework import DjangoFilterBackend
 from advertisements import models
 from advertisements.filters import AdvertisementFilter
 from advertisements.models import Advertisement
-# from advertisements.permissons import IsOwner
+from advertisements.permissons import IsOwner
 from advertisements.serializers import AdvertisementSerializer
 
 
@@ -36,3 +36,4 @@ class AdvertisementViewSet(ModelViewSet):
             if self.request.user == post.creator:
                 return [IsAuthenticated()]  # Изменение объявления разрешено только его создателю
             return Response(status=status.HTTP_404_NOT_FOUND)
+        return []
