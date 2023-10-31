@@ -30,10 +30,6 @@ class AdvertisementViewSet(ModelViewSet):
     def get_permissions(self):
         if self.action in ["create"]:
             return [IsAuthenticated()]  # Для создания объявления требуется аутентификация
-        elif self.action in ["update", "partial_update"]:
-            post_id = self.kwargs['pk']
-            post = models.Advertisement.objects.get(id=post_id)
-            if self.request.user == post.creator:
-                return [IsAuthenticated()]  # Изменение объявления разрешено только его создателю
-            return Response(status=status.HTTP_404_NOT_FOUND)
+        elif self.action in ["update", "partial_update", "delete"]:
+            return [IsAuthenticated(), IsOwner()]  # Изменение объявления разрешено только его создателю
         return []
